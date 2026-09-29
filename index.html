@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#090c1a">
+  <meta name="description" content="一段安靜、私密的線上塔羅抽牌儀式。">
+  <title>BITEtheABYSS TAROT｜線上抽牌</title>
+  <link rel="icon" type="image/jpeg" href="assets/brand/bitetheabyss-logo.jpg">
+  <link rel="preload" href="assets/fonts/Iansui-Regular.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="styles.css?v=10">
+</head>
+<body class="setup-page">
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header shell">
+    <a class="brand" href="index.html" aria-label="BITEtheABYSS TAROT 首頁">
+      <img class="brand-mark" src="assets/brand/bitetheabyss-logo.jpg" width="42" height="36" alt="">
+      <span>BITEtheABYSS TAROT</span>
+    </a>
+    <span class="quiet-label">PRIVATE READING</span>
+  </header>
+
+  <main class="shell setup-layout">
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">A quiet moment for yourself</p>
+      <h1 id="page-title">把問題留在心裡，<br>讓牌慢慢展開。</h1>
+      <p class="lede">選擇牌陣與抽牌規則。問題留白時，抽牌資料僅留在你的瀏覽器中。</p>
+      <div class="moon-orbit" aria-hidden="true">
+        <span class="orbit orbit-one"></span>
+        <span class="orbit orbit-two"></span>
+        <span class="moon">✦</span>
+      </div>
+    </section>
+
+    <form id="setup-form" class="setup-card">
+      <section class="form-section" aria-labelledby="spread-title">
+        <div class="section-heading">
+          <div>
+            <span class="step-number">01</span>
+            <h2 id="spread-title">選擇牌陣</h2>
+          </div>
+          <span id="card-count" class="count-pill">1 張</span>
+        </div>
+
+        <div class="spread-grid" role="radiogroup" aria-label="牌陣">
+          <label class="spread-option selected">
+            <input type="radio" name="spread" value="single" checked>
+            <span class="spread-icon one-card" aria-hidden="true"><i></i></span>
+            <strong>單張指引</strong>
+            <small>此刻最需要看見的訊息</small>
+          </label>
+          <label class="spread-option">
+            <input type="radio" name="spread" value="three">
+            <span class="spread-icon three-card" aria-hidden="true"><i></i><i></i><i></i></span>
+            <strong>三張時間流</strong>
+            <small>過去・現在・未來</small>
+          </label>
+          <label class="spread-option more-option">
+            <input type="radio" name="spread" value="relationship">
+            <span class="spread-icon five-card" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+            <strong>關係牌陣</strong>
+            <small>雙方心態與關係走向</small>
+          </label>
+          <label class="spread-option more-option">
+            <input type="radio" name="spread" value="decision">
+            <span class="spread-icon five-card decision-icon" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+            <strong>選擇牌陣</strong>
+            <small>兩條路徑與核心建議</small>
+          </label>
+          <label class="spread-option more-option">
+            <input type="radio" name="spread" value="celtic">
+            <span class="spread-icon ten-card" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span>
+            <strong>塞爾特十字</strong>
+            <small>完整梳理複雜情境</small>
+          </label>
+          <label class="spread-option more-option">
+            <input type="radio" name="spread" value="body-mind-spirit">
+            <span class="spread-icon three-card" aria-hidden="true"><i></i><i></i><i></i></span>
+            <strong>身心靈</strong>
+            <small>身體・思緒・內在需要</small>
+          </label>
+          <label class="spread-option more-option">
+            <input type="radio" name="spread" value="elements">
+            <span class="spread-icon five-card" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+            <strong>四元素</strong>
+            <small>行動・情感・思考・現實</small>
+          </label>
+          <label class="spread-option more-option">
+            <input type="radio" name="spread" value="creative">
+            <span class="spread-icon five-card" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+            <strong>創作指引</strong>
+            <small>靈感、阻力與下一步</small>
+          </label>
+          <button id="toggle-more" class="spread-more" type="button" aria-expanded="false">
+            <span>＋</span>
+            <strong>其他牌陣</strong>
+            <small>關係、選擇與完整占卜</small>
+          </button>
+        </div>
+        <p id="spread-description" class="selection-note">用一張牌聚焦當下，適合清楚而單純的提問。</p>
+      </section>
+
+      <section class="form-section" aria-labelledby="question-title">
+        <div class="section-heading compact">
+          <div>
+            <span class="step-number">02</span>
+            <h2 id="question-title">寫下問題</h2>
+          </div>
+          <span class="optional">可留白</span>
+        </div>
+        <label class="sr-only" for="question">你的問題</label>
+        <textarea id="question" name="question" rows="2" maxlength="160" placeholder="例如：這段關係現在需要我看見什麼？"></textarea>
+        <div class="field-meta"><span>問題會顯示在結果頁</span><span id="question-count">0 / 160</span></div>
+      </section>
+
+      <section class="form-section rules-section" aria-labelledby="rules-title">
+        <div class="section-heading compact">
+          <div>
+            <span class="step-number">03</span>
+            <h2 id="rules-title">設定抽牌規則</h2>
+          </div>
+        </div>
+
+        <div class="mindset-row deck-scope-row">
+          <div>
+            <strong>僅使用正位</strong>
+          </div>
+          <label class="switch">
+            <input id="upright-only-toggle" type="checkbox">
+            <span aria-hidden="true"></span>
+            <span class="sr-only">僅使用正位</span>
+          </label>
+        </div>
+
+        <div class="mindset-row deck-scope-row">
+          <div>
+            <strong>只使用大阿卡納</strong>
+          </div>
+          <label class="switch">
+            <input id="major-only-toggle" type="checkbox">
+            <span aria-hidden="true"></span>
+            <span class="sr-only">只使用大阿卡納，共 24 張</span>
+          </label>
+        </div>
+
+      </section>
+
+      <button class="primary-button" type="submit">
+        <span>開始洗牌</span>
+        <span class="button-symbol" aria-hidden="true">✦</span>
+      </button>
+    </form>
+  </main>
+
+  <script src="js/card-art.js?v=6"></script>
+  <script src="js/tarot-data.js?v=11"></script>
+  <script src="js/setup.js?v=11"></script>
+</body>
+</html>

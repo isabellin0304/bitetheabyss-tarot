@@ -1,0 +1,407 @@
+[
+  {
+    "id": "back",
+    "sourceName": "0牌背.png",
+    "image": "assets/deck/00.png"
+  },
+  {
+    "id": "major-00",
+    "sourceName": "1愚者.png",
+    "image": "assets/deck/01.png"
+  },
+  {
+    "id": "major-01",
+    "sourceName": "2魔術師.png",
+    "image": "assets/deck/02.png"
+  },
+  {
+    "id": "major-02",
+    "sourceName": "3女祭司.png",
+    "image": "assets/deck/03.png"
+  },
+  {
+    "id": "major-03",
+    "sourceName": "4皇后.png",
+    "image": "assets/deck/04.png"
+  },
+  {
+    "id": "major-04",
+    "sourceName": "5皇帝.png",
+    "image": "assets/deck/05.png"
+  },
+  {
+    "id": "major-05",
+    "sourceName": "6教皇.png",
+    "image": "assets/deck/06.png"
+  },
+  {
+    "id": "major-06",
+    "sourceName": "7戀人.png",
+    "image": "assets/deck/07.png"
+  },
+  {
+    "id": "major-07",
+    "sourceName": "8戰車.png",
+    "image": "assets/deck/08.png"
+  },
+  {
+    "id": "major-08",
+    "sourceName": "9力量.png",
+    "image": "assets/deck/09.png"
+  },
+  {
+    "id": "major-09",
+    "sourceName": "10隱者.png",
+    "image": "assets/deck/10.png"
+  },
+  {
+    "id": "major-10",
+    "sourceName": "11命運之輪.png",
+    "image": "assets/deck/11.png"
+  },
+  {
+    "id": "major-11",
+    "sourceName": "12正義.png",
+    "image": "assets/deck/12.png"
+  },
+  {
+    "id": "major-12",
+    "sourceName": "13吊人.png",
+    "image": "assets/deck/13.png"
+  },
+  {
+    "id": "major-13",
+    "sourceName": "14死亡.png",
+    "image": "assets/deck/14.png"
+  },
+  {
+    "id": "major-14",
+    "sourceName": "15節制.png",
+    "image": "assets/deck/15.png"
+  },
+  {
+    "id": "major-15",
+    "sourceName": "16惡魔.png",
+    "image": "assets/deck/16.png"
+  },
+  {
+    "id": "major-16",
+    "sourceName": "17塔.png",
+    "image": "assets/deck/17.png"
+  },
+  {
+    "id": "extra-tower-revival",
+    "sourceName": "18塔(復甦).png",
+    "image": "assets/deck/18.png"
+  },
+  {
+    "id": "major-17",
+    "sourceName": "19星星1.png",
+    "image": "assets/deck/19.png"
+  },
+  {
+    "id": "extra-star",
+    "sourceName": "20星星2.png",
+    "image": "assets/deck/20.png"
+  },
+  {
+    "id": "major-18",
+    "sourceName": "21月亮.png",
+    "image": "assets/deck/21.png"
+  },
+  {
+    "id": "major-19",
+    "sourceName": "22太陽.png",
+    "image": "assets/deck/22.png"
+  },
+  {
+    "id": "major-20",
+    "sourceName": "23審判.png",
+    "image": "assets/deck/23.png"
+  },
+  {
+    "id": "major-21",
+    "sourceName": "24世界.png",
+    "image": "assets/deck/24.png"
+  },
+  {
+    "id": "wands-ace",
+    "sourceName": "25權杖一.png",
+    "image": "assets/deck/25.png"
+  },
+  {
+    "id": "wands-two",
+    "sourceName": "26權杖二.png",
+    "image": "assets/deck/26.png"
+  },
+  {
+    "id": "wands-three",
+    "sourceName": "27權杖三.png",
+    "image": "assets/deck/27.png"
+  },
+  {
+    "id": "wands-four",
+    "sourceName": "28權杖四.png",
+    "image": "assets/deck/28.png"
+  },
+  {
+    "id": "wands-five",
+    "sourceName": "29權杖五.png",
+    "image": "assets/deck/29.png"
+  },
+  {
+    "id": "wands-six",
+    "sourceName": "30權杖六.png",
+    "image": "assets/deck/30.png"
+  },
+  {
+    "id": "wands-seven",
+    "sourceName": "31權杖七.png",
+    "image": "assets/deck/31.png"
+  },
+  {
+    "id": "wands-eight",
+    "sourceName": "32權杖八.png",
+    "image": "assets/deck/32.png"
+  },
+  {
+    "id": "wands-nine",
+    "sourceName": "33權杖九.png",
+    "image": "assets/deck/33.png"
+  },
+  {
+    "id": "wands-ten",
+    "sourceName": "34權杖十.png",
+    "image": "assets/deck/34.png"
+  },
+  {
+    "id": "wands-page",
+    "sourceName": "35權杖侍者.png",
+    "image": "assets/deck/35.png"
+  },
+  {
+    "id": "wands-knight",
+    "sourceName": "36權杖騎士.png",
+    "image": "assets/deck/36.png"
+  },
+  {
+    "id": "wands-queen",
+    "sourceName": "37權杖皇后.png",
+    "image": "assets/deck/37.png"
+  },
+  {
+    "id": "wands-king",
+    "sourceName": "38權杖國王.png",
+    "image": "assets/deck/38.png"
+  },
+  {
+    "id": "cups-ace",
+    "sourceName": "39聖杯一.png",
+    "image": "assets/deck/39.png"
+  },
+  {
+    "id": "cups-two",
+    "sourceName": "40聖杯二.png",
+    "image": "assets/deck/40.png"
+  },
+  {
+    "id": "cups-three",
+    "sourceName": "41聖杯三.png",
+    "image": "assets/deck/41.png"
+  },
+  {
+    "id": "cups-four",
+    "sourceName": "42聖杯四.png",
+    "image": "assets/deck/42.png"
+  },
+  {
+    "id": "cups-five",
+    "sourceName": "43聖杯五.png",
+    "image": "assets/deck/43.png"
+  },
+  {
+    "id": "cups-six",
+    "sourceName": "44聖杯六.png",
+    "image": "assets/deck/44.png"
+  },
+  {
+    "id": "cups-seven",
+    "sourceName": "45聖杯七.png",
+    "image": "assets/deck/45.png"
+  },
+  {
+    "id": "cups-eight",
+    "sourceName": "46聖杯八.png",
+    "image": "assets/deck/46.png"
+  },
+  {
+    "id": "cups-nine",
+    "sourceName": "47聖杯九.png",
+    "image": "assets/deck/47.png"
+  },
+  {
+    "id": "cups-ten",
+    "sourceName": "48聖杯十.png",
+    "image": "assets/deck/48.png"
+  },
+  {
+    "id": "cups-page",
+    "sourceName": "49聖杯侍者.png",
+    "image": "assets/deck/49.png"
+  },
+  {
+    "id": "cups-knight",
+    "sourceName": "50聖杯騎士.png",
+    "image": "assets/deck/50.png"
+  },
+  {
+    "id": "cups-queen",
+    "sourceName": "51聖杯皇后.png",
+    "image": "assets/deck/51.png"
+  },
+  {
+    "id": "cups-king",
+    "sourceName": "52聖杯國王.png",
+    "image": "assets/deck/52.png"
+  },
+  {
+    "id": "swords-ace",
+    "sourceName": "53寶劍一.png",
+    "image": "assets/deck/53.png"
+  },
+  {
+    "id": "swords-two",
+    "sourceName": "54寶劍二.png",
+    "image": "assets/deck/54.png"
+  },
+  {
+    "id": "swords-three",
+    "sourceName": "55寶劍三.png",
+    "image": "assets/deck/55.png"
+  },
+  {
+    "id": "swords-four",
+    "sourceName": "56寶劍四.png",
+    "image": "assets/deck/56.png"
+  },
+  {
+    "id": "swords-five",
+    "sourceName": "57寶劍五.png",
+    "image": "assets/deck/57.png"
+  },
+  {
+    "id": "swords-six",
+    "sourceName": "58寶劍六.png",
+    "image": "assets/deck/58.png"
+  },
+  {
+    "id": "swords-seven",
+    "sourceName": "59寶劍七.png",
+    "image": "assets/deck/59.png"
+  },
+  {
+    "id": "swords-eight",
+    "sourceName": "60寶劍八.png",
+    "image": "assets/deck/60.png"
+  },
+  {
+    "id": "swords-nine",
+    "sourceName": "61寶劍九.png",
+    "image": "assets/deck/61.png"
+  },
+  {
+    "id": "swords-ten",
+    "sourceName": "62寶劍十.png",
+    "image": "assets/deck/62.png"
+  },
+  {
+    "id": "swords-page",
+    "sourceName": "63寶劍侍者.png",
+    "image": "assets/deck/63.png"
+  },
+  {
+    "id": "swords-knight",
+    "sourceName": "64寶劍騎士.png",
+    "image": "assets/deck/64.png"
+  },
+  {
+    "id": "swords-queen",
+    "sourceName": "65寶劍皇后.png",
+    "image": "assets/deck/65.png"
+  },
+  {
+    "id": "swords-king",
+    "sourceName": "66寶劍國王.png",
+    "image": "assets/deck/66.png"
+  },
+  {
+    "id": "pentacles-ace",
+    "sourceName": "67金幣一.png",
+    "image": "assets/deck/67.png"
+  },
+  {
+    "id": "pentacles-two",
+    "sourceName": "68金幣二.png",
+    "image": "assets/deck/68.png"
+  },
+  {
+    "id": "pentacles-three",
+    "sourceName": "69金幣三.png",
+    "image": "assets/deck/69.png"
+  },
+  {
+    "id": "pentacles-four",
+    "sourceName": "70金幣四.png",
+    "image": "assets/deck/70.png"
+  },
+  {
+    "id": "pentacles-five",
+    "sourceName": "71金幣五.png",
+    "image": "assets/deck/71.png"
+  },
+  {
+    "id": "pentacles-six",
+    "sourceName": "72金幣六.png",
+    "image": "assets/deck/72.png"
+  },
+  {
+    "id": "pentacles-seven",
+    "sourceName": "73金幣七.png",
+    "image": "assets/deck/73.png"
+  },
+  {
+    "id": "pentacles-eight",
+    "sourceName": "74金幣八.png",
+    "image": "assets/deck/74.png"
+  },
+  {
+    "id": "pentacles-nine",
+    "sourceName": "75金幣九.png",
+    "image": "assets/deck/75.png"
+  },
+  {
+    "id": "pentacles-ten",
+    "sourceName": "76金幣十.png",
+    "image": "assets/deck/76.png"
+  },
+  {
+    "id": "pentacles-page",
+    "sourceName": "77金幣侍者.png",
+    "image": "assets/deck/77.png"
+  },
+  {
+    "id": "pentacles-knight",
+    "sourceName": "78金幣騎士.png",
+    "image": "assets/deck/78.png"
+  },
+  {
+    "id": "pentacles-queen",
+    "sourceName": "79金幣皇后.png",
+    "image": "assets/deck/79.png"
+  },
+  {
+    "id": "pentacles-king",
+    "sourceName": "80金幣國王.png",
+    "image": "assets/deck/80.png"
+  }
+]

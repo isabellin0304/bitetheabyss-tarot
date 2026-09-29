@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#090c1a">
+  <title>抽牌儀式｜BITEtheABYSS TAROT</title>
+  <link rel="icon" type="image/jpeg" href="assets/brand/bitetheabyss-logo.jpg">
+  <link rel="preload" href="assets/fonts/Iansui-Regular.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="styles.css?v=10">
+</head>
+<body class="reading-page">
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header shell">
+    <a class="brand" href="index.html" aria-label="BITEtheABYSS TAROT 首頁">
+      <img class="brand-mark" src="assets/brand/bitetheabyss-logo.jpg" width="42" height="36" alt="">
+      <span>BITEtheABYSS TAROT</span>
+    </a>
+    <button id="exit-reading" class="text-button" type="button">重新設定</button>
+  </header>
+
+  <main class="reading-main shell">
+    <section class="ritual-head" aria-live="polite">
+      <p id="ritual-kicker" class="eyebrow">Preparing your deck</p>
+      <h1 id="ritual-title">正在洗牌</h1>
+      <p id="ritual-instruction">慢慢呼吸，把注意力放回你的問題。</p>
+    </section>
+
+    <ol class="progress" aria-label="抽牌進度">
+      <li class="active" data-step="shuffle"><span>1</span>洗牌</li>
+      <li data-step="cut"><span>2</span>切牌</li>
+      <li data-step="draw"><span>3</span>抽牌</li>
+      <li data-step="result"><span>4</span>結果</li>
+    </ol>
+
+    <section class="table-panel" aria-label="塔羅牌桌">
+      <div id="canvas-wrap"></div>
+      <div id="cut-controls" class="cut-controls is-hidden" aria-label="選擇一疊牌">
+        <button type="button" data-pile="0">左側</button>
+        <button type="button" data-pile="1">中央</button>
+        <button type="button" data-pile="2">右側</button>
+      </div>
+      <button id="draw-assist" class="secondary-button is-hidden" type="button">替我隨機抽一張</button>
+      <p id="draw-status" class="draw-status" aria-live="polite"></p>
+    </section>
+
+    <section id="result-section" class="result-section is-hidden" aria-labelledby="result-title">
+      <div class="result-heading">
+        <p class="eyebrow">Your reading</p>
+        <h2 id="result-title">牌已展開</h2>
+        <p id="result-question" class="result-question"></p>
+      </div>
+      <div id="result-cards" class="result-cards"></div>
+      <section id="ai-advice" class="ai-advice is-hidden" aria-labelledby="ai-advice-title" aria-busy="false">
+        <h3 id="ai-advice-title">建議</h3>
+        <p id="ai-advice-text" role="status" aria-live="polite"></p>
+        <p class="ai-advice-notice">本建議由 AI 產生，可能出錯，請自行查證。</p>
+      </section>
+      <p class="result-disclaimer">牌義文字提供自我整理的方向，不取代醫療、法律、財務或其他專業判斷。</p>
+      <div class="result-actions">
+        <button id="draw-again" class="primary-button compact-button" type="button">同設定再抽一次 <span aria-hidden="true">↻</span></button>
+        <div class="result-share-actions">
+          <button id="copy-reading" class="secondary-button" type="button">複製結果</button>
+          <button id="save-reading" class="secondary-button" type="button">儲存圖片</button>
+        </div>
+        <a id="back-home" class="secondary-button" href="index.html">回主頁</a>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="save-dialog" aria-labelledby="save-title">
+    <div class="save-dialog-content">
+      <h2 id="save-title">儲存本次抽牌</h2>
+      <p id="save-status" role="status">正在準備圖片⋯</p>
+      <img id="save-preview" alt="本次抽牌圖片，包含完整牌面、正逆位、牌位與簡短牌義" hidden>
+      <div class="save-dialog-actions">
+        <button id="download-reading" class="primary-button" type="button" disabled>下載圖片</button>
+        <button id="cancel-save" class="secondary-button" type="button" autofocus>取消</button>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="vendor/p5.min.js"></script>
+  <script src="js/card-art.js?v=6"></script>
+  <script src="js/tarot-data.js?v=11"></script>
+  <script src="js/reading-export.js?v=9"></script>
+  <script src="js/ai-config.js?v=8"></script>
+  <script src="js/reading-ai.js?v=9"></script>
+  <script src="js/draw-utils.js?v=10"></script>
+  <script src="js/reading.js?v=11"></script>
+</body>
+</html>
